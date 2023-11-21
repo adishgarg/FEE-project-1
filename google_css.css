@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  box-sizing: border-box;
+}
+
+.top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(pexels-francesco-ungaro-1525041.jpg);
+  background-size: cover;
+}
+
+.lol {
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  font-family: Dancing Script;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding: 5%;
+  /* background-color: transparent; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 550px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(pexels-francesco-ungaro-1525041.jpg);
+  background-size: cover;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 2px;
+  font-size: 15px;
+  color: white;
+}
+
+.title {
+  font-size: 95px;
+  color: white;
+  margin: 2%;
+  background: transparent;
+  text-decoration: none;
+  font-family: Dancing Script;
+  transition-duration: 2s;
+  transition-timing-function: 2s;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: larger;
+  transition-duration: 1s;
+}
+
+#Gmail:hover{
+  color: white;
+  text-decoration: underline;
+  font-size: 25px;
+  transition-duration: 1s;
+}
+
+#Images:hover{
+  color: white;
+  text-decoration: underline;
+  font-size: 25px;
+  transition-duration: 1s;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    top: 10px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .search-bar {
+    width: 400px;
+  }
+}
+
+  @media (max-width: 400px) {
+    .container {
+      top: 10px;
+    }
+    .title {
+      font-size: 50px;
+    }
+    .search-bar {
+      width: 200px;
+    }
+    .search-bar img {
+      width: 10px;
+      
+    }
+    .search-bar img {
+      border: 0px;
+      border-radius: 25px;
+      background-color: transparent;
+    }
+    .search-bar button {
+      background: transparent;
+      border: 0px;
+      cursor: pointer;
+    }
+}
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 80px;
+}
+.search-bar img {
+  width: 25px;
+  
+}
+.search-bar img {
+  border: 0px;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.search-bar button {
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.title:hover{
+    font-size: 110px;
+    transition-duration: 1s;
+}
+
+.linkslow{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 395px;
+  align-items: center;
+  justify-content: space-evenly;
+  background: transparent;
+  
+}
+
+.webstore{
+  width: 50px;
+  height: 40px;
+  box-sizing: border-box;
+  
+}
+
+.mail{
+  width: 50px;
+}

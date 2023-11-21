@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+}
+
+.navbar {
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    font-family: Dancing Script;
+    }
+
+.links {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+#Gmail:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    transition-duration: 1s;
+}
+
+#Images:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    transition-duration: 1s;
+}
+  
+.title {
+    font-size: 95px;
+    color: white;
+    margin: 2%;
+    background: transparent;
+    text-decoration: none;
+    font-family: Dancing Script;
+    transition-duration: 2s;
+    transition-timing-function: 2s;
+  }
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+}
+
+.title:hover{
+    font-size: 110px;
+    transition-duration: 1s;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 550px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(30, 30, 30,0.175);
+}
+  
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+
+.search-bar img {
+    border: 0px;
+    border-radius: 50px;
+    background-color: transparent;
+    width: 25px;
+
+}
+
+.search-bar button {
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.lowerlinks{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 240px;
+}
+.lowerlinks a{
+    margin: 10px;
+}
+#webstore{
+    height: 56px;
+    border-radius: 5px;
+    filter: invert(1);
+    transition-duration: 600ms;
+}
+
+#mail{
+    border-radius: 5px;
+    filter: invert(1);
+    transition-duration: 600ms;
+}
+
+#webstore:hover{
+    width: 80px;
+    height: 66px;
+    transition-duration: 600ms;
+}
+
+#mail:hover{
+    width: 80px;
+    transition-duration: 600ms;
+}
