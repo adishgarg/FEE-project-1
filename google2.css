@@ -138,3 +138,61 @@
     width: 80px;
     transition-duration: 600ms;
 }
+
+@media (max-width: 1000px) {
+    body {
+      top: 10px;
+    }
+    .title {
+      font-size: 50px;
+    }
+    .search-bar {
+      width: 400px;
+    }
+    #webstore{
+        height: 46px;
+        border-radius: 5px;
+        filter: invert(1);
+        transition-duration: 600ms;
+    }
+    #mail{
+        border-radius: 5px;
+        filter: invert(1);
+        transition-duration: 600ms;
+        height: 46px;
+    }
+    .lowerlinks{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-evenly;
+        top: 180px;
+    }
+  }
+  
+    @media (max-width: 400px) {
+      body {
+        top: 10px;
+      }
+      .title {
+        font-size: 50px;
+      }
+      .search-bar {
+        width: 200px;
+      }
+      .search-bar img {
+        width: 10px;
+        
+      }
+      .search-bar img {
+        border: 0px;
+        border-radius: 25px;
+        background-color: transparent;
+      }
+      .search-bar button {
+        background: transparent;
+        border: 0px;
+        cursor: pointer;
+      }
+      
+  }
