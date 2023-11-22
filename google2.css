@@ -194,5 +194,27 @@
         border: 0px;
         cursor: pointer;
       }
-      
+      .placeholder{
+        
+      }
   }
+
+ #sun{
+  transition-duration: 5s;
+ }
+
+ #moon{
+  transition-duration: 5s;
+ }
+
+ #sun:hover{
+  width: 40px;
+  height: 40px;
+  transition-duration: 5s;
+ }
+
+ #moon:hover{
+  width: 40px;
+  height: 40px;
+  transition-duration: 5s;
+ }

@@ -1,8 +1,6 @@
-const background = document.querySelector('img');
-
-document.addEventListener('mousemove', (e) => {
-    const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
-    const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
-
-    background.style.transform = `translate(${xAxis}px, ${yAxis}px)`;
-});
+function myFunc() {
+    document.body.style.backgroundImage = "url(pexels-francesco-ungaro-1525041.jpg)";
+  }
+  function myFunction() {
+    document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(pexels-francesco-ungaro-1525041.jpg)";
+  }
