@@ -96,6 +96,7 @@
     border-radius: 50px;
     background-color: transparent;
     width: 25px;
+    filter: invert(1);
 
 }
 
